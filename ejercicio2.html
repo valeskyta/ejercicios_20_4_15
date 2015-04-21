@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>2</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1>ejercicio 2:</h1>
+	<p>definir 3 funciones,una que reciba 2 funciones y las ejecute y otras 2 funciones que impriman hola mundo y adiós mundo.</p>
+	<script>
+
+	function multiplicar(e,f,g,h){
+		console.log(e*f);
+		g();
+		h();
+	};
+	function print1 () {
+		console.log('hola mundo');
+	};
+	function print2 () {
+		console.log('adios mundo');
+	};
+	multiplicar(5,3, print1, print2);
+
+	</script>
+</body>
+</html>
