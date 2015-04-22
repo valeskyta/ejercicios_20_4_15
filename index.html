@@ -95,6 +95,134 @@
 	// suma(2,5,imprime1);
 	// suma(2,5,imprime2);
 
+	// function imprime1(x) {
+	// 	console.log('hola')
+	// 	var mundo = 'mundo';
+	// 	x(mundo); //funcion
+	// }
+
+	// function imprime2(c) {
+	// 	console.log(c);
+	// }
+	// imprime1(imprime2);
+
+	// imprime1(function(x){
+	// 	console.log(x);
+	// });
+
+	// function imprime1(x) {
+	// 	x('chao');
+	// }
+
+	// imprime1(function(y){
+	// 	console.log(y + ' mundo');
+	// })
+// FUNCION ANONIMA
+// 	function perrito(a){
+// 		a('cola');
+// 	}
+// 	perrito(function(z){
+// 		console.log('se mueve '+ z)
+// 	}
+// 	        )
+
+// 	function gatitos(d){
+// 		d('rompen')
+// 	}
+// 	gatitos(function(y){
+// 		console.log(y + ' las cosas')
+// 	})
+
+// 	function feliz(l){
+// 		l('alegre');
+// 	}
+// 	feliz(function (m){
+// 		console.log(m + 'siempre')
+// 	})
+
+	// 	function suma(a,b,funcion){
+	// 	console.log(a+b);
+	// 	funcion();
+	// }
+
+// argumentos
+// parametros
+// 	function miFuncion(funcionAnonima){
+// 		funcionAnonima();
+// 	}
+
+// 	miFuncion(function){
+// 		console.log('hola mundo');
+// 	})
+
+
+// 	function miFuncion2(funcionAnonima){
+// 		funcionAnonima(1,2);
+// 	}
+
+// 	miFuncion2(function(numero1, numero2){
+// 		console.log(numero1+numero2);
+// 	});
+// /////
+// 	function Perro() {
+// 		this.cantidadPatas = 4;
+// 	}
+// 	var perro1 = new Perro();
+// 	perro1.nombre = 'wawi';
+// 	var perro2 = new Perro();
+// 	perro2.nombre = 'Baco';
+
+// 	console.log(perro1,perro2);
+
+
+	//crear la clase humano con atributo por defecto nombre edad, color pelo , juan 30 y rojo
+	// function Humano() {
+	// this.nombre = 'juan';
+	// this.edad = 30;
+	// this.colorPelo = 'rojo';
+	// }
+
+	// console.log(humano1);
+
+//crear 2 instancias de humano, el primero cambiar nombre a eduardo el 2 cambiar color de pelo a castaño claro.
+
+	// var humano1 = new Humano();
+	// var humano2 = new Humano();
+	// humano1.nombre = 'eduardo';
+	// humano2.colorPelo = 'CastanoClaro';
+
+	// var nombreHumano1 = humano1.nombre;
+	// console.log(nombreHumano1, humano1.nombre);
+
+//crear una clase computador y asignarle 5 atributos por defecto
+
+	function Computador(){
+		this.ram= '4GB';
+		this.discoDuro = '500GB';
+		this.procesador = '2,4 GHz';
+		this.peso = '1,7gm';
+		this.color = 'plata';
+	}
+// ejercicio 2
+// crear 3 instancias de la clase computador.
+// instancia 1: agregarle mas ram.
+// instancia 2: aumentar espacio en disco duro.
+// instancia 3: cambiar el procesador:
+	var compu1 = new Computador();
+	var compu2 = new Computador();
+	var compu3 = new Computador();
+	compu1.ram = '8GB';
+	compu2.discoDuro = '1TB';
+	compu3.procesador = '4 GHz';
+
+	console.log(compu1,compu2,compu3);
+// ejercicio 3
+// imprimir de instancia 1 solamente la ram
+	console.log(compu1.ram);
+// '' ' ' 2 el disco y la ram
+	console.log(compu2.ram + '' + compu2.discoDuro);
+// '' la instancia 3 completa
+	console.log(compu3)
 
 
 </script>
